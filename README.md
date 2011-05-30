@@ -12,12 +12,13 @@ safe to share.
 
 Process
 =======
- $ cd
- $ git init
- $ echo "*" >> .git/info/exclude
- $ git status
- $ git add -f .vimrc 
- $ git remote add github git@github.com:sotapme/dotfiles.git
- $ git commit -m "Add .vimrc as start"
- $ git push -u github master
+
+     $ cd
+     $ git init
+     $ echo "*" >> .git/info/exclude
+     $ git status
+     $ git add -f .vimrc 
+     $ git remote add github git@github.com:sotapme/dotfiles.git
+     $ git commit -m "Add .vimrc as start"
+     $ git push -u github master
 
