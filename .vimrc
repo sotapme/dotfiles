@@ -6,6 +6,15 @@ set ai
 set et
 set sta
 
+"
+"
+nmap ,n :NERDTreeFind<CR>
+nmap ,m :NERDTreeToggle<CR>
+
+
+set autochdir
+autocmd BufEnter * silent! lcd %:p:h
+set gfn=Anonymous\ Pro:h18
 
 let include_new_stuff = 0
 if include_new_stuff
@@ -359,3 +368,5 @@ aug END
 
 endif
 
+
+autocmd BufEnter * silent! lcd %:p:h

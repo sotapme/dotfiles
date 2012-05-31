@@ -1,4 +1,4 @@
-dotfiles
+Dotfiles
 ========
 
 Repo. of my dotfiles.
@@ -18,7 +18,7 @@ Process
      $ echo "*" >> .git/info/exclude
      $ git status
      $ git add -f .vimrc 
-     $ git remote add github git@github.com:sotapme/dotfiles.git
+     $ git remote add bitbucket-dotfiles git@bitbucket.org:sotapme/dotfiles.git
      $ git commit -m "Add .vimrc as start"
-     $ git push -u github master
+     $ git push -u bitbucket-dotfiles master
 
