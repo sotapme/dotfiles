@@ -1,0 +1,8 @@
+# Emacs compiled elisp.
+*.elc
+
+# Python compiled byte code.
+*.pyc
+
+# Java Class files
+*.class
